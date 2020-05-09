@@ -3,16 +3,17 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   // Alterar cor do fundo de palavras selecionadas:   
-  "workbench.colorCustomizations": { 
-      "editor.selectionHighlightBackground": "#365166", 
-      "editor.selectionBackground": "#3d4952" 
-  },
+  //"workbench.colorCustomizations": { 
+  //    "editor.selectionHighlightBackground": "#365166", 
+  //    "editor.selectionBackground": "#3d4952" 
+  //},
   // Is git enabled
   "git.enabled": true,
   "git.enableSmartCommit": true,
   "window.zoomLevel": 0.5,
   "terminal.integrated.fontSize": 14,
   "extensions.ignoreRecommendations": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
