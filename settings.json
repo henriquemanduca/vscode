@@ -1,16 +1,17 @@
 {
-  "workbench.colorTheme": "Dracula Soft",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "git.enabled": true,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 0,
-  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 0.2,
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.snippetSuggestions": "top",
   "editor.renderLineHighlight": "gutter",
@@ -25,7 +26,7 @@
     "javascript": "javascriptreact"
   },
   "files.autoSave": "onWindowChange",
-  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
 
   "editor.rulers": [80, 120],
@@ -38,7 +39,8 @@
   "[javascript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    }
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
@@ -59,6 +61,13 @@
 
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+
+  "material-icon-theme.folders.associations": {
+    "migrations": "tools",
+    "typeorm": "database",
+    "seeds": "include"
+  },
+  "workbench.startupEditor": "newUntitledFile"
 }
 
