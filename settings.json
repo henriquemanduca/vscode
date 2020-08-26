@@ -4,7 +4,7 @@
   "workbench.editor.labelFormat": "short",
   "git.enabled": true,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
@@ -15,6 +15,9 @@
   "editor.tabSize": 2,
   "editor.snippetSuggestions": "top",
   "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 100],
+  "editor.formatOnSave": false,
+  "editor.suggestSelection": "first",
   "explorer.compactFolders": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
@@ -25,23 +28,14 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "off",
   "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.suggestSelection": "first",
-  //"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
+  "explorer.confirmDelete": false,  
   "eslint.enable": true,
-
   "[javascript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
@@ -58,16 +52,11 @@
       "source.fixAll.eslint": true
     }
   },
-  "editor.formatOnSave": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
   "material-icon-theme.folders.associations": {
     "migrations": "tools",
     "typeorm": "database",
     "seeds": "include"
   },
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",  
 }
 
