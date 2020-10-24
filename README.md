@@ -1,2 +1,2 @@
 # vscode
-Visual Studio Code configuration file and file helpers.
+Visual Studio Code configuration file and others helper files.
