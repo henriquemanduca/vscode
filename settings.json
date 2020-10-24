@@ -1,10 +1,10 @@
 {
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "git.enabled": true,
   "git.enableSmartCommit": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
@@ -20,7 +20,10 @@
     100
   ],
   "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "explorer.compactFolders": false,
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.highlightCurrentLine": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "breadcrumbs.enabled": true,
@@ -43,7 +46,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "node_modules": true
-  },  
+  },
   "material-icon-theme.folders.associations": {
     "migrations": "tools",
     "typeorm": "database",
