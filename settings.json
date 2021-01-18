@@ -1,18 +1,19 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "git.enabled": true,
   "git.enableSmartCommit": true,
   "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
-  "terminal.integrated.fontFamily": "'Fira Code'",
+  "terminal.integrated.fontFamily": "Fira Code",
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
+  "editor.lineHeight": 23,
   "editor.snippetSuggestions": "top",
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [
@@ -20,7 +21,6 @@
     100
   ],
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "explorer.compactFolders": false,
   "trailing-spaces.trimOnSave": true,
   "trailing-spaces.highlightCurrentLine": false,
@@ -33,7 +33,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "files.autoSave": "off",
+  "files.autoSave": "onFocusChange",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
