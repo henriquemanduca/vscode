@@ -7,7 +7,6 @@
   "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.fontFamily": "Fira Code",
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
